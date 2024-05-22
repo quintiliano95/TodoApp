@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Tarefa"),
+        title: const Text("Lista de Tarefas"),
         backgroundColor: Color.fromRGBO(168, 52, 52, 20),
         centerTitle: true,
       ),
@@ -18,8 +18,8 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
-        child: Center(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // ElevatedButton(
               //   onPressed: () {},
@@ -36,7 +36,6 @@ class HomeScreen extends StatelessWidget {
               Divider(),
             ],
           ),
-        ),
       ),
     );
   }

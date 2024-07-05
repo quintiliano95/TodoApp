@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
                   fontSize: 18,
                 ),
               ),
-              const Text("Tarefa 1"),
+              // const Text("Tarefa 1"),
               Divider(),
             ],
           ),
